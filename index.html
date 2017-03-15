@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivial Trivia Game</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	
+</head>
+<body>
+	
+	<div id="quizContainer" class="container">
+		<div class="title"> African Geography Quiz</div>
+		<div id="question" class="question"></div>
+		<label class="option"><input type="radio" name="option" value="1"/> <p id="opt1"></p></label>
+		<label class="option"><input type="radio" name="option" value="2"/> <p id="opt2"></p></label>
+		<label class="option"><input type="radio" name="option" value="3"/> <p id="opt3"></p></label>
+		<label class="option"><input type="radio" name="option" value="4"/> <p id="opt4"></p></label>
+		<button id="nextButton"> Next Question</button>
+	</div>
+
+	<div id ="result" class="container result" style="display:none;"></div>
+
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+</html>
